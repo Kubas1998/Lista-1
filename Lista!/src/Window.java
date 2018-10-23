@@ -18,7 +18,7 @@ public class Window extends JFrame implements ActionListener {
 	
 	
 	public Window() {
-		setSize(400,200);
+		setSize(500,200);
 		setTitle("Window");
 		setLayout(null);
 		
