@@ -8,7 +8,6 @@ import javax.swing.JTextField;
 
 
 
-aa
 public class Window extends JFrame implements ActionListener {
 	
 	JLabel lCelsius, lFahrenheit;
