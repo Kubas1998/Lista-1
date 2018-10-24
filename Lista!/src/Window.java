@@ -8,7 +8,7 @@ import javax.swing.JTextField;
 
 
 
-
+aa
 public class Window extends JFrame implements ActionListener {
 	
 	JLabel lCelsius, lFahrenheit;
@@ -34,7 +34,6 @@ public class Window extends JFrame implements ActionListener {
 		lFahrenheit = new JLabel("Stopnie Fahrenheita");
 		lFahrenheit.setBounds(20,70,150,20);
 		add(lFahrenheit);
-		aa
 		tFahrenheit= new JTextField("");
 		tFahrenheit.setBounds(170,70,150,20);
 		add(tFahrenheit);
