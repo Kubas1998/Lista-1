@@ -34,7 +34,7 @@ public class Window extends JFrame implements ActionListener {
 		lFahrenheit = new JLabel("Stopnie Fahrenheita");
 		lFahrenheit.setBounds(20,70,150,20);
 		add(lFahrenheit);
-		
+		aa
 		tFahrenheit= new JTextField("");
 		tFahrenheit.setBounds(170,70,150,20);
 		add(tFahrenheit);
@@ -43,7 +43,7 @@ public class Window extends JFrame implements ActionListener {
 		bPrzelicz.setBounds(20,100,150,20);
 		add(bPrzelicz);
 		bPrzelicz.addActionListener(this);
-		
+
 	}
 	public static void main(String[] args) {
 		Window win = new Window();
