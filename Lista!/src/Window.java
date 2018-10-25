@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JTextField;
 
-//dfgdfg
+
 
 public class Window extends JFrame implements ActionListener {
 	
@@ -20,11 +20,11 @@ public class Window extends JFrame implements ActionListener {
 		setSize(500,200);
 		setTitle("Window");
 		setLayout(null);
-		
+
 		lCelsius= new JLabel("Stopnie Celsiusza");
 		lCelsius.setBounds(20,20,150,20);
 		add(lCelsius);
-		//bbb
+		
 		tCelsius= new JTextField("");
 		tCelsius.setBounds(170,20,150,20);
 		add(tCelsius);
