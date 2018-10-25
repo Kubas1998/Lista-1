@@ -40,7 +40,7 @@ public class Window extends JFrame implements ActionListener {
 		bPrzelicz.setBounds(20,100,150,20);
 		add(bPrzelicz);
 		bPrzelicz.addActionListener(this);
-/bbbbb
+
 	}
 	public static void main(String[] args) {
 		Window win = new Window();
