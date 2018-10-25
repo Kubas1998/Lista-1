@@ -21,7 +21,7 @@ public class Window extends JFrame implements ActionListener {
 		setTitle("Window");
 		setLayout(null);
 		
-		
+		//bbb
 		lCelsius= new JLabel("Stopnie Celsiusza");
 		lCelsius.setBounds(20,20,150,20);
 		add(lCelsius);
